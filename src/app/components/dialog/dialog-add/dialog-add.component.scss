@@ -1,0 +1,72 @@
+.mat-form-field {
+    width: 100%;
+}
+
+.example-radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    align-items: flex-start;
+}
+  
+.example-radio-button {
+    margin: 5px;
+}
+
+h3 {
+    margin-top: 5%;
+}
+
+// dialog styling
+::ng-deep.mat-dialog-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    overflow-x: hidden;
+}
+.mat-dialog-content{
+    padding: 5% 7% 5% 10%;
+}
+#header{
+    background-color: #095e9c;
+    color: white;
+    height: 50px;
+}
+#header h2{
+    padding: 2% 0% 0% 5%;
+}
+.mat-dialog-actions{
+    margin-right: 5%;
+}
+#btnSave{
+    color: white;
+    background-color: #095e9c;
+}
+#btnSave:disabled{
+    opacity: 0.3;
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+    cursor: not-allowed;
+}
+// end dialog styling
+
+
+//close button
+::ng-deep.mat-button-focus-overlay{
+   background-color: transparent;
+}
+.close-button{
+    float: right;
+    top: 5px;
+    right: 10px;
+    outline: none;
+    color: white;
+}
+.close-icon{
+    transition: 1s ease-in-out;
+}
+.close-icon:hover{
+    transform: rotate(180deg);
+}
+//end close button

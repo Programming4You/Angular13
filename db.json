@@ -1,0 +1,241 @@
+{
+  "productList": [
+    {
+      "productName": "Dell XPS",
+      "category": "Laptops",
+      "company": 3,
+      "state": "Brand New",
+      "price": 800,
+      "stock": "Available",
+      "comment": "High performance",
+      "date": "2022-06-07T11:43:56.000Z",
+      "id": 1
+    },
+    {
+      "productName": "HP Pavilion",
+      "category": "Laptops",
+      "company": 3,
+      "state": "Second Hand",
+      "price": 250,
+      "stock": "Not Available",
+      "comment": "Suitable for games",
+      "date": "2022-05-28T07:55:55.000Z",
+      "id": 2
+    },
+    {
+      "productName": "Lenovo ThinkPad",
+      "category": "Laptops",
+      "company": 2,
+      "state": "Brand New",
+      "price": 1200,
+      "stock": "Available",
+      "comment": "New one",
+      "date": "2022-06-04T18:41:35.000Z",
+      "id": 3
+    },
+    {
+      "productName": "MackBook Pro",
+      "category": "Laptops",
+      "company": 4,
+      "state": "Second Hand",
+      "price": 550,
+      "stock": "Available",
+      "comment": "The best",
+      "date": "2022-05-30T07:37:49.000Z",
+      "id": 4
+    },
+    {
+      "productName": "MackBook Air",
+      "category": "Laptops",
+      "company": 4,
+      "state": "Second Hand",
+      "price": 450,
+      "stock": "Not Available",
+      "comment": "Very light",
+      "date": "2022-06-06T04:28:21.000Z",
+      "id": 5
+    },
+    {
+      "productName": "Xiaomi 10",
+      "category": "Phones",
+      "company": 5,
+      "state": "Brand New",
+      "price": 380,
+      "stock": "Available",
+      "comment": "Good phone",
+      "date": "2022-04-20T07:40:37.000Z",
+      "id": 6
+    },
+    {
+      "productName": "Dell Inspirion",
+      "category": "Laptops",
+      "company": 5,
+      "state": "Brand New",
+      "price": 600,
+      "stock": "Available",
+      "comment": "Affordable",
+      "date": "2022-05-17T18:28:53.000Z",
+      "id": 7
+    },
+    {
+      "productName": "Hard Disk",
+      "category": "Components",
+      "company": 4,
+      "state": "Refurbished",
+      "price": 45,
+      "stock": "Not Available",
+      "comment": "Like a new",
+      "date": "2022-05-15T18:28:22.000Z",
+      "id": 8
+    },
+    {
+      "productName": "Samsung Monitor",
+      "category": "Components",
+      "company": 3,
+      "state": "Refurbished",
+      "price": 240,
+      "stock": "Not Available",
+      "comment": "Like a new",
+      "date": "2022-05-20T07:41:09.000Z",
+      "id": 9
+    },
+    {
+      "productName": "Keyboard",
+      "category": "Components",
+      "company": 3,
+      "state": "Refurbished",
+      "price": 45,
+      "stock": "Available",
+      "comment": "Fresh New",
+      "date": "2022-06-10T07:56:56.000Z",
+      "id": 10
+    },
+    {
+      "productName": "HP G8",
+      "category": "Laptops",
+      "company": 1,
+      "state": "Brand New",
+      "price": 350,
+      "stock": "Available",
+      "comment": "Good product",
+      "date": "2022-05-15T07:41:41.000Z",
+      "id": 11
+    },
+    {
+      "productName": "Lenovo Legion",
+      "category": "Laptops",
+      "company": 1,
+      "state": "Second Hand",
+      "price": 700,
+      "stock": "Available",
+      "comment": "Extra condition",
+      "date": "2022-06-03T07:57:14.000Z",
+      "id": 13
+    },
+    {
+      "productName": "Samsung A70",
+      "category": "Phones",
+      "company": 4,
+      "state": "Brand New",
+      "price": 220,
+      "stock": "Available",
+      "comment": "Good screen",
+      "date": "2022-05-14T18:29:18.000Z",
+      "id": 14
+    },
+    {
+      "productName": "Motorola Moto",
+      "category": "Phones",
+      "company": 3,
+      "state": "Brand New",
+      "price": 250,
+      "stock": "Not Available",
+      "comment": "New model",
+      "date": "2022-05-17T22:00:00.000Z",
+      "id": 15
+    },
+    {
+      "productName": "Headset",
+      "category": "Components",
+      "company": 3,
+      "state": "Brand New",
+      "price": 50,
+      "stock": "Available",
+      "comment": "Clear sound",
+      "date": "2022-06-05T07:42:08.000Z",
+      "id": 16
+    },
+    {
+      "productName": "Speakers",
+      "category": "Components",
+      "company": 2,
+      "state": "Second Hand",
+      "price": 45,
+      "stock": "Not Available",
+      "comment": "Clear sound",
+      "date": "2022-05-18T18:30:03.000Z",
+      "id": 17
+    },
+    {
+      "productName": "Mouse",
+      "category": "Components",
+      "company": 4,
+      "state": "Brand New",
+      "price": 10,
+      "stock": "Available",
+      "comment": "",
+      "date": "2022-05-22T03:03:02.000Z",
+      "id": 18
+    }
+  ],
+  "companies": [
+    {
+      "value": 1,
+      "viewValue": "Company 1"
+    },
+    {
+      "value": 2,
+      "viewValue": "Company 2"
+    },
+    {
+      "value": 3,
+      "viewValue": "Company 3"
+    },
+    {
+      "value": 4,
+      "viewValue": "Company 4"
+    },
+    {
+      "value": 5,
+      "viewValue": "Company 5"
+    }
+  ],
+  "categories": [
+    {
+      "value": 1,
+      "viewValue": "Laptops"
+    },
+    {
+      "value": 2,
+      "viewValue": "Phones"
+    },
+    {
+      "value": 3,
+      "viewValue": "Components"
+    }
+  ],
+  "productStates": [
+    {
+      "value": 1,
+      "viewValue": "Brand New"
+    },
+    {
+      "value": 2,
+      "viewValue": "Second Hand"
+    },
+    {
+      "value": 3,
+      "viewValue": "Refurbished"
+    }
+  ]
+}

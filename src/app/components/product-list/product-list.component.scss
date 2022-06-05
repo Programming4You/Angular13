@@ -1,0 +1,82 @@
+::ng-deep .custom-tooltip{
+ background-color: #7ba0ba;
+ color: white;
+}
+
+.add-button {
+  width: 10%;
+  color: white;
+  background-color: #095e9c;
+ }
+
+.container {
+  margin: 0 auto;
+  max-width: 70%;
+  padding-bottom: 5%;
+}
+
+ .make-disebled {
+   td {color: lightgray;}
+ }
+
+ .mat-menu-item:hover {
+   color: white;
+   background-color: #095e9c;
+}
+
+.mat-toolbar{
+   background-color: #095e9c;
+}
+  
+.mat-form-field {
+    font-size: 14px;
+    width: 20%;
+}
+
+.mt-5{
+    margin-top: 5%;
+}
+
+.mat-header-cell {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.mat-raised-button{
+    margin-left: 70%;
+}
+  
+.search-box {
+    position: relative;        
+    margin-left: 80%;
+}
+.search-box input {
+    height: 34px;
+    border-radius: 20px;
+    padding-left: 35px;
+    border: 2px solid white;
+    box-shadow: none;
+    background: #fff;
+}
+.search-box input:focus {
+    outline: none;
+}
+.search-box i {
+    color: #a0a5b1;
+    position: absolute;
+    font-size: 19px;
+    top: 8px;
+    left: 10px;
+}
+
+.spacer-top {
+    margin-top: 2%;
+}
+
+table {
+  width: 100%;
+}
+
+td.mat-cell:last-of-type {
+  padding-right: 10px;
+}

@@ -1,0 +1,63 @@
+<button mat-icon-button class="close-button" mat-dialog-close>
+  <mat-icon class="close-icon">close</mat-icon>
+</button>
+<div id="header">
+    <h2 mat-dialog-title>Add Product</h2>
+</div>
+<div mat-dialog-content>
+   <form [formGroup]="productForm">
+    <mat-form-field appearance="outline">
+        <mat-label>Product Name</mat-label>
+        <input matInput formControlName="productName" placeholder="Name" autocomplete="off">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Category</mat-label>
+        <mat-select formControlName="category" placeholder="Category">
+            <mat-option [value]="option.viewValue" *ngFor="let option of categories">
+                {{option.viewValue}}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Company</mat-label>
+        <mat-select formControlName="company" placeholder="Company">
+            <mat-option [value]="option.value" *ngFor="let option of companies">
+                {{ option.viewValue }}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Stock</mat-label>
+        <mat-select formControlName="stock" placeholder="Stock">
+            <mat-option value="Available">Available</mat-option>
+            <mat-option value="Not Available">Not Available</mat-option>
+        </mat-select>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Choose a date</mat-label>
+        <input matInput formControlName="date" [matDatepicker]="picker"> 
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+    <label for=""><h3>Product State</h3></label>
+    <mat-radio-group formControlName="state" class="example-radio-group">
+        <mat-radio-button *ngFor="let state of productStates" [value]="state.viewValue" class="example-radio-button">
+          {{state.viewValue}}
+        </mat-radio-button>
+    </mat-radio-group>
+    <mat-form-field appearance="outline">
+        <mat-label>Price</mat-label>
+        <input matInput formControlName="price" type="number" min="0" placeholder="Price" autocomplete="off">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Comment</mat-label>
+        <textarea matInput formControlName="comment" rows="5" cols="40"></textarea>
+    </mat-form-field>
+   </form>
+</div>
+<mat-divider></mat-divider>
+<div mat-dialog-actions [align]="'end'">
+  <button mat-raised-button color="basic" mat-dialog-close>Cancel</button>
+  <button mat-raised-button id="btnSave" [disabled]="!disableBtn" (click)="addProduct()">{{actionBtn}}</button>
+</div>
